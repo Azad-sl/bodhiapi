@@ -7,19 +7,19 @@
   ],
   "headers": [
     {
-      "source": "/api",  // 匹配 /api 路径的请求
+      "source": "/api", 
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://qhgptja.aihub.ren" // **重要：替换为你前端应用的实际域名**
+          "value": "https://qhgptja.aihub.ren"
         },
         {
           "key": "Access-Control-Allow-Methods",
-          "value": "GET, OPTIONS" // 根据你的 API 需要添加允许的 HTTP 方法
+          "value": "GET, OPTIONS" 
         },
         {
           "key": "Access-Control-Allow-Headers",
-          "value": "Origin, X-Requested-With, Content-Type, Accept" // 根据你的 API 需要添加允许的请求头部
+          "value": "Origin, X-Requested-With, Content-Type, Accept" 
         }
       ]
     }
