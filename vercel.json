@@ -11,7 +11,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://qhgptja.aihub.ren"
+          "value": "https://qhgptja.aihub.ren, https://qhgpt.aihub.ren"
         },
         {
           "key": "Access-Control-Allow-Methods",
