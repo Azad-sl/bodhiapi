@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
 
   res.status(200).json({
     quote: randomQuote,
-    source: "佛经",
+    source: "菩提 · 禅言",
     timestamp: new Date().toISOString()
   });
 };
